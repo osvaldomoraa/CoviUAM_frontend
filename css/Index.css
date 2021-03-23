@@ -1,0 +1,527 @@
+/* 
+Sections
+*/
+
+#hero-section {    
+    background-image: url("../assets/img/hero-background-red-02.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.hero-title {
+    display: block;
+    color: var(--brand-white);
+    font-family: var(--secondary-font-family);
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    font-weight: 600;
+    font-size: 4.0rem;
+}
+
+.hero-subtitle {
+    display: block;
+    color: var(--brand-white);
+    font-family: var(--secondary-font-family);
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.hero-image {
+    max-height: 275px;
+}
+
+.hero-row {
+    min-height: 60vh;
+}
+
+.hero-divider {
+    height: 250px;
+    background-image: url("../assets/svg/hero-divider-shape.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    background-size: cover;
+    margin-top: -25px;
+}
+
+#about-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-text-box {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-text-box .standard-title {
+    margin-bottom: 15px;
+}
+
+.about-image {
+    max-height: 275px;
+}
+
+#what-we-do-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.what-we-do-text-box {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.what-we-do-text-box .standard-title {
+    margin-bottom: 15px;
+}
+
+.what-we-do-card {
+    background-color: var(--brand-white);
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.what-we-do-card-image {
+    max-width: 100px;
+}
+
+.what-we-do-card-heading {
+    font-size: 2.0rem;
+    font-family: var(--secondary-font-family);
+    font-weight: 600;
+}
+
+.mt-gap {
+    margin-top: 35px;
+}
+
+#target-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.target-text-box {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.target-text-box .standard-title {
+    margin-bottom: 15px;
+}
+
+.target-image {
+    max-height: 275px;
+}
+
+#the-app-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.the-app-text-box {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#the-app-section .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("../assets/img/hero-background-red-02.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    border-radius: 35px;
+}
+
+.the-app-text-box .standard-title, .the-app-text-box .standard-text {
+    color: #FFFFFF;
+}
+
+.the-app-image {
+    max-height: 275px;
+}
+
+.the-app-buttons-wrapper {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.the-app-button {
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-right: 25px;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.the-app-button:hover {
+    text-decoration: none;
+    color: var(--brand-red);
+    background-color: #FFFFFF;
+}
+
+#team-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team-heading-box .standard-title {
+    margin-bottom: 15px;
+}
+
+.team-heading-box .standard-text {
+    text-align: center;
+}
+
+.team-photo {
+    max-width: 100%;
+}
+
+.team-member-box {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.team-member-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+}
+
+.team-member-description {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: justify;
+    display: block;
+    margin-top: 5px;
+}
+
+.team-member-social-media-wrapper {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.team-member-social-media-wrapper i {
+    margin-right: 5px;
+}
+
+.team-member-social-media-wrapper a:hover {
+    text-decoration: none;
+}
+
+.team-member-social-media-wrapper .bi-twitter {
+    color: #00acee;
+}
+
+.team-member-social-media-wrapper .bi-facebook {
+    color: #3b5998;
+}
+
+.team-member-social-media-wrapper .bi-github {
+    color: #6e5494;
+}
+
+.team-member-social-media-wrapper .bi-youtube {
+    color: #c4302b ;
+}
+
+#contact-section {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.contact-form-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    background-color: var(--brand-blue-black);
+}
+
+.contact-image {
+    max-height: 275px;
+}
+
+.contact-copy {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--brand-gray);
+}
+
+.contact-text-box .standard-title {
+    margin-bottom: 25px;
+}
+
+#contact-form .form-control {
+    background-color: var(--brand-blue-black);
+    padding: 10px;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+#contact-form ::placeholder {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+
+#contact-form button {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: var(--brand-blue-black);
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+#contact-form button:hover {
+    text-decoration: none;
+    color: var(--brand-blue-black);
+    background-color: #FFFFFF;
+}
+
+/* 
+Responsive
+*/
+
+@media (max-width: 991px) {
+    .hero-row {
+        min-height: unset;
+    }
+    .hero-divider {
+        height: 150px;
+    }
+    .hero-text-box {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .hero-image-box {
+        margin-bottom: 35px;
+    }
+    .hero-image {
+        max-height: 250px;
+    }
+    .about-text-box {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 30px;
+    }
+    .about-image {
+        max-height: 250px;
+    }
+    .what-we-do-text-box {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 30px;
+    }
+    .what-we-do-cards-row {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .what-we-do-card {
+        margin-bottom: 25px;
+    }
+    .mt-gap {
+        margin-top: unset;
+    }
+    .target-image {
+        max-height: 250px;
+    }
+    .the-app-text-box {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-bottom: 35px;
+    }
+    .team-heading-box .standard-text {
+        text-align: justify;
+    }
+    .contact-image {
+        max-height: 250px;
+    }
+    .contact-image-box {
+        margin-bottom: 50px;
+    }       
+}
+
+@media (max-width: 767px) {
+    .hero-divider {
+        height: 100px;
+    }
+    .hero-title {
+        font-size: 3.0rem;
+    }
+    .hero-subtitle {
+        font-size: 2.0rem;
+    }
+    .hero-image {
+        max-height: 200px;
+    }    
+    #about-section {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .about-image {
+        max-height: 200px;
+    }
+    #what-we-do-section {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .what-we-do-card-image {
+        max-width: 75px;
+    }
+    .what-we-do-card-heading {
+        font-size: 1.8rem;
+    }
+    #target-section {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .target-image {
+        max-height: 200px;
+    }
+    #the-app-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .the-app-image {
+        max-height: 200px;
+    }
+    #team-section {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #contact-section {
+        margin-top: 25px;
+        margin-bottom: 100px;
+    }
+    .contact-image {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    .hero-subtitle {
+        font-size: 1.8rem;
+    }
+    .hero-text-box {
+        margin-bottom: 20px;
+    }
+    #about-section {
+        margin-top: 10px;
+    }
+    .about-text-box {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about-image {
+        max-height: 150px;
+    }
+    .what-we-do-text-box {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .what-we-do-cards-row {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .what-we-do-card {
+        min-height: 185px;
+    }
+    .target-image {
+        margin-top: 20px;
+        max-height: 175px;
+    }
+    #the-app-section {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .the-app-image {
+        max-height: 175px;
+    }
+    .the-app-buttons-wrapper {
+        text-align: center;
+    }
+    .the-app-button {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    .hero-subtitle {
+        font-size: 1.6rem;
+    }
+    .hero-image {
+        max-height: 125px;
+    }
+    .what-we-do-cards-row {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .what-we-do-card {
+        min-height: 157px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .what-we-do-card-image {
+        max-width: 50px;
+    }
+    .what-we-do-card-heading {
+        font-size: 1.6rem;
+    }
+    .the-app-text-box {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .team-member-name {
+        font-size: 1.4rem;
+    }
+    .team-member-description {
+        font-size: 1.2rem;
+    }
+    .contact-image {
+        max-height: 125px;
+    }
+}
