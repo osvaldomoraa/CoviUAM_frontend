@@ -1,0 +1,218 @@
+header .navbar {
+    background-color: var(--brand-red);
+}
+
+#navbarSupportedContent a {
+    color: var(--brand-white);
+}
+
+#navbarSupportedContent a:hover {
+    color: var(--brand-light-blue);
+}
+
+#hero-section {
+    background-image: url("../assets/img/hero-background-black-blue-02.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#hero-section .standard-title {
+    color: #FFFFFF;
+}
+
+#hero-section .standard-text {
+    color: #FFFFFF;
+}
+
+#hero-section .row {
+    padding-top: 50px;
+}
+
+.hero-image {
+    max-height: 350px;
+}
+
+.hero-divider {
+    height: 250px;
+    background-image: url("../assets/svg/hero-divider-shape.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    background-size: cover;
+    margin-top: -25px;
+}
+
+#introduction-section {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.introduction-text-box .standard-title {
+    margin-bottom: 15px;
+}
+
+.introduction-image {
+    max-height: 275px;
+}
+
+#installation-guide-section {
+    background-color: #e9e9e9;
+    padding-bottom: 150px;
+}
+
+#installation-guide-section .container{
+    padding-top: 50px;
+}
+
+.installation-guide-text-box .standard-title {
+    margin-bottom: 15px;
+}
+
+.installation-guide-image {
+    max-height: 275px;
+}
+
+.installation-guide-divider {
+    height: 290px;
+    background-image: url("../assets/svg/hero-divider-shape-r.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    background-size: cover;
+    margin-bottom: -25px;
+}
+
+.lets-start-title {
+    margin-top: 35px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+}
+
+.lets-start-button-wrapper {
+    margin-top: 20px;
+}
+
+.lets-start-button {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #e9e9e9;
+    background-color: var(--brand-blue-black);
+    text-align: center;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+
+.lets-start-button:hover {
+    text-decoration: none;
+    color: #e9e9e9;
+    background-color: var(--brand-blue-black);
+    font-weight: 700;
+}
+
+/* 
+Responsive
+*/
+
+@media (max-width: 991px) {
+    .hero-copy {
+        font-size: 5rem;
+    }
+    .hero-divider {
+        height: 150px;
+    }
+    .hero-image {
+        max-height: 250px;
+    }
+    .introduction-image-box {
+        margin-top: 35px;
+    }
+    .introduction-image {
+        max-height: 250px;
+    }
+    #installation-guide-section {
+        padding-bottom: 150px;
+    }
+    .installation-guide-image-box{
+        margin-top: 35px;
+    }
+    .installation-guide-image {
+        max-height: 225px;
+    }
+    .installation-guide-divider {
+        height: 200px;
+        margin-bottom: unset;
+    }      
+}
+
+@media (max-width: 767px) {
+    .hero-divider {
+        height: 100px;
+    }
+    .hero-copy {
+        font-size: 4rem;
+    }
+    .hero-image {
+        max-height: 200px;
+    }
+    #introduction-section {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }    
+    .introduction-image-box {
+        margin-top: 25px;
+    }
+    .introduction-image {
+        max-height: 200px;
+    }
+    .installation-guide-divider {
+        height: 150px;
+    }
+    .installation-guide-image {
+        max-height: 200px;
+    }
+    .lets-start-title {
+        font-size: 2.2rem;
+    }
+    .lets-start-button {
+        font-size: 2.2rem;
+    }
+    #installation-guide-section .container{
+        padding-top: 0px;
+    }  
+}
+
+@media (max-width: 575px) {
+    .hero-copy {
+        font-size: 3.5rem;
+    }
+    .hero-text-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #introduction-section {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }   
+    #installation-guide-section .standard-title {
+        font-size: 3.5rem;
+    } 
+    .installation-guide-button {
+        font-size: 2.2rem;
+    }
+    .installation-guide-divider {
+        height: 100px;
+    }
+    #installation-guide-section {
+        padding-bottom: 100px;
+    }
+    .lets-start-row {
+        margin-top: 15px;
+    }
+}
